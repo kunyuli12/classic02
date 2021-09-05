@@ -18,6 +18,7 @@ struct ContentView: View {
             VStack (alignment:.leading){
                 Text("kunyuli - 30%完成度")
                     .padding(.bottom)
+                progressbar()
                 Viewbottom(imagebottom: "gear", textbottom: "Account")
                 Viewbottom(imagebottom: "creditcard", textbottom:"Billing")
                 Viewbottom(imagebottom: "person.crop.circle", textbottom: "Sign out")

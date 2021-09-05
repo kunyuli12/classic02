@@ -18,35 +18,9 @@ struct ContentView: View {
             VStack (alignment:.leading){
                     Text("kunyuli - 30%完成度")
                         .padding(.bottom)
-                    HStack {
-                        Image(systemName: "gear")
-                            .font(.system(size:35))
-                            .foregroundColor(Color(#colorLiteral(red: 0.7052461081, green: 0.7684168045, blue: 0.9290926396, alpha: 1)))
-                        Text("Account")
-                            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                            .bold()
-                            .padding(10)
-                    }
-                    HStack {
-                        Image(systemName: "creditcard")
-                            .font(.system(size:35))
-                            .foregroundColor(Color(#colorLiteral(red: 0.7052461081, green: 0.7684168045, blue: 0.9290926396, alpha: 1)))
-
-                        Text("Billing")
-                            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                            .bold()
-                            .padding(10)
-                    }
-                    HStack {
-                        Image(systemName:"person.crop.circle" )
-                            .font(.system(size:35))
-                            .foregroundColor(Color(#colorLiteral(red: 0.7052461081, green: 0.7684168045, blue: 0.9290926396, alpha: 1)))
-
-                        Text("Sign out")
-                            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                            .bold()
-                            .padding(10)
-                    }
+                Viewbottom(imagebottom: "gear", textbottom: "Account")
+                Viewbottom(imagebottom: "creditcard", textbottom:"Billing")
+                Viewbottom(imagebottom: "person.crop.circle", textbottom: "Sign out")
                 }
                 .frame(height: 350, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .frame(maxWidth:.infinity )

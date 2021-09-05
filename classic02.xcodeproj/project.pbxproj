@@ -11,6 +11,7 @@
 		BA44D75126E253320024DDB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA44D75026E253320024DDB8 /* ContentView.swift */; };
 		BA44D75326E253350024DDB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA44D75226E253350024DDB8 /* Assets.xcassets */; };
 		BA44D75626E253350024DDB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA44D75526E253350024DDB8 /* Preview Assets.xcassets */; };
+		BA6A060926E4751D00764BE6 /* Viewbottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A060826E4751D00764BE6 /* Viewbottom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		BA44D75226E253350024DDB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA44D75526E253350024DDB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA44D75726E253350024DDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6A060826E4751D00764BE6 /* Viewbottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viewbottom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				BA44D74E26E253320024DDB8 /* classic02App.swift */,
 				BA44D75026E253320024DDB8 /* ContentView.swift */,
+				BA6A060826E4751D00764BE6 /* Viewbottom.swift */,
 				BA44D75226E253350024DDB8 /* Assets.xcassets */,
 				BA44D75726E253350024DDB8 /* Info.plist */,
 				BA44D75426E253350024DDB8 /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA44D75126E253320024DDB8 /* ContentView.swift in Sources */,
+				BA6A060926E4751D00764BE6 /* Viewbottom.swift in Sources */,
 				BA44D74F26E253320024DDB8 /* classic02App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

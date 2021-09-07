@@ -9,14 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-       
         ZStack {
             Image("Unknown")
                 .resizable()
                 .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .offset(x: 0, y: 50)
             VStack (alignment:.leading){
-                Text("kunyuli - 30%完成度")
+                Text("kunyuli - 40%完成度")
                     .padding(.bottom,5)
                     .padding(.leading)
                 progressbar()
